@@ -58,7 +58,7 @@ Requirements
 
 使用演示
 -
-![SKFPageView.gif](http://upload-images.jianshu.io/upload_images/964698-b7a7d557b4586cff.gif?imageMogr2/auto-orient/strip)
+![SKFPageView.gif](http://ww2.sinaimg.cn/large/006HJ39wgy1ffqsl1cjuzg308c0f8dzl.gif)
 
 * 使用过程中，有任何问题，欢迎大家题issues，或者去我的blog留言。
 
