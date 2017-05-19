@@ -59,10 +59,10 @@ Requirements
 使用演示
 -
 ![SKFPageView.gif](http://upload-images.jianshu.io/upload_images/964698-b7a7d557b4586cff.gif?imageMogr2/auto-orient/strip)
-使用过程中，有任何问题，欢迎大家题issues，或者去我的blog留言。
--------
 
-微博 敲代码的树懒
--------
-[我的简书](http://www.jianshu.com/users/61b9640c876a/latest_articles)
--------
+* 使用过程中，有任何问题，欢迎大家题issues，或者去我的blog留言。
+
+
+* 微博 敲代码的树懒
+
+*  [我的简书](http://www.jianshu.com/users/61b9640c876a/latest_articles)
