@@ -22,13 +22,14 @@ class ViewController: UIViewController {
         
         //1,创建需要的样式
         let style = SKFPageStyle()
-        style.isScrollEnabel=true
+//        style.isScrollEnabel=true
         style.isShowBottomLine=true
         style.isScaleEnable=true
         
         //2.获取所有的标题
         
-        let  titles = ["推荐","游戏hhhhh","热门","趣玩","娱乐44444"]
+        let  titles = ["精选","电影","小龙虾","皮皮虾","京酱肉丝","还有啥"]
+
         
         //3,获取所有的内容控制器
         //两种区间
