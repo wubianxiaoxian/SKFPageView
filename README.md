@@ -1,20 +1,32 @@
-//
-//  ViewController.swift
-//  StudySwiftTableview
-//
-//  Created by 孙凯峰 on 2017/5/16.
-//  Copyright © 2017年 孙凯峰. All rights reserved.
-//
+SKFPageView
+--
 
-import UIKit
+简介
+--
+* 一个轻量级创建分页的工具
+* 可以自定义Titlebar背景颜色、字体颜色、
+* 翻页Titlebar 文字渐变色，字体放大
+*
+
+Version
+----
+
+* 1.0.1 
+
+Requirements
+----
+
+* Xcode 8 or higher
+* iOS 8.0 or higher
+
+集成
+-
+* 手工集成:
+* 导入文件夹 SKFPageView 到你的工程
 
 
-
-
-class ViewController: UIViewController {
-    
-    
-    
+使用方法
+-
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -43,13 +55,14 @@ class ViewController: UIViewController {
         view.addSubview(pageView)
         
     }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-    
-}
 
+使用演示
+-
+![SKFPageView.gif](http://upload-images.jianshu.io/upload_images/964698-b7a7d557b4586cff.gif?imageMogr2/auto-orient/strip)
+使用过程中，有任何问题，欢迎大家题issues，或者去我的blog留言。
+-------
 
+微博 敲代码的树懒
+-------
+[我的简书](http://www.jianshu.com/users/61b9640c876a/latest_articles)
+-------
