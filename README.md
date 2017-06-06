@@ -11,7 +11,7 @@ SKFPageView
 Version
 ----
 
-* 1.0.1 
+* 1.2 
 
 Requirements
 ----
@@ -55,6 +55,29 @@ Requirements
         view.addSubview(pageView)
         
     }
+
+可以修改以下属性
+-
+   
+    //是否可以滚动 默认不可以
+    var isScrollEnabel:Bool=false 
+    var titleHeight :CGFloat = 44
+    var normalColor :UIColor = .white
+    var selectColor :UIColor = .blue
+    var fontSize :CGFloat=15
+    var titleMargin : CGFloat = 30
+
+    
+    //是否显示滚动条
+    var isShowBottomLine:Bool=false
+    var bottomLineColor:UIColor = .blue
+    var bottomLineHeight:CGFloat = 2
+    
+    //是否需要缩放功能
+    var isScaleEnable:Bool=false
+    var maxScale:CGFloat=1.2
+    
+
 
 使用演示
 -
