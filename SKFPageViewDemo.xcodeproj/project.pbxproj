@@ -216,6 +216,7 @@
 				TargetAttributes = {
 					1D0FF0531ECED23200022452 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = G5GYNRM6SE;
 						ProvisioningStyle = Automatic;
 					};
 					1D0FF0671ECED23200022452 = {
@@ -440,6 +441,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G5GYNRM6SE;
 				INFOPLIST_FILE = SKFPageViewDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -453,6 +455,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G5GYNRM6SE;
 				INFOPLIST_FILE = SKFPageViewDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

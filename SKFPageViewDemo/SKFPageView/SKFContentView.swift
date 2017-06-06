@@ -115,19 +115,34 @@ extension SKFContentView:UICollectionViewDelegate{
 
         var progress :CGFloat = 0
         var targetIndex = 0
-        var sourceIndex = Int(startOffsetX/collectionView.bounds.width)
+        var sourceIndex = 0
         
-        // 判断左滑动 还是右滑动
+        // 计算进度
+        progress = scrollView.contentOffset.x.truncatingRemainder(dividingBy: scrollView.bounds.width)/scrollView.bounds.width
+        if progress == 0 {
+            return
+        }
+        // 4 计算下标值
+        let index = Int(scrollView.contentOffset.x/scrollView.bounds.width)
         
+        // 5 判断用户是左滑动 还是右滑动
         if collectionView.contentOffset.x>startOffsetX{
             //左滑动
-            targetIndex=sourceIndex+1
-            progress=(collectionView.contentOffset.x-startOffsetX)/collectionView.bounds.width
+            sourceIndex = index
+            targetIndex = index + 1
+            if targetIndex>childVcs.count-1 {
+                return
+            }
         } else{
             //右滑动
-            targetIndex=sourceIndex-1
-            progress=(startOffsetX-collectionView.contentOffset.x)/collectionView.bounds.width
-
+            sourceIndex = index + 1
+            
+            targetIndex=index
+            
+            progress = 1 - progress
+            if targetIndex < 0 {
+                return
+            }
         }
         
         print("sourceIndex:",sourceIndex,"targetIndex",targetIndex,"progress",progress)
