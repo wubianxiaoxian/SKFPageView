@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         style.isScaleEnable=true
         
         //2.获取所有的标题
-        let  titles = ["精选","电影","小龙虾","皮皮虾","京酱肉丝","还有啥"]
+        let  titles = ["精选","电影","小龙虾","皮皮虾","京酱肉丝","还有啥","可口可乐","百事可乐","雪碧芬达"]
         
         //3,获取所有的内容控制器
         var childVcs = Array<UIViewController>()
